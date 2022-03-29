@@ -1,0 +1,28 @@
+@font-face {
+    font-family: SourceCodePro;
+    src: url(SourceSansPro-Regular.ttf);
+}
+
+* {
+    background-color: #fff3cb;
+    font-family: SourceCodePro;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+a {
+    color: #1f1f1f;
+    font-size: 22px;
+}
+
+ul {
+    font-size: 20px;
+}
