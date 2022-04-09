@@ -1,26 +1,78 @@
 @font-face {
     font-family: SourceCodePro;
-    src: url(SourceSansPro-Regular.ttf);
+    font-weight: 200;
+    src: url(fonts/SourceSansPro-ExtraLight.ttf);
 }
 
+@font-face {
+    font-family: SourceCodePro;
+    font-weight: 300;
+    src: url(fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    src: url(fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    font-weight: 600;
+    src: url(fonts/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    font-weight: 700;
+    src: url(fonts/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: SourceCodePro;
+    font-weight: 900;
+    src: url(fonts/SourceSansPro-Black.ttf);
+}
+
+
+
+
 * {
-    background-color: #fff3cb;
+    background-color: #F3F3F3;
     font-family: SourceCodePro;
     font-size:18px;
+    
+}
+
+body {
+    margin: 0px;
+    
 }
 
 h1 {
+    font-weight: 500;
     font-size: 36px;
     text-align: center;
+    margin: 25px
 }
 
 h2 {
+    font-weight: 400;
     font-size: 28px;
+    margin: 5px 25px 2px 25px;
 }
 
 a {
     color: #1f1f1f;
-    font-size: 22px;
+}
+
+a:link {
+    color: #BD883E;
+    font-weight: 500;
+}
+
+a:visited {
+    color: #935908;
+    font-weight: 500;
 }
 
 img {
@@ -30,4 +82,74 @@ img {
     width: 250px;
     border-radius: 20px;
     
+}
+ul {
+    font-weight: 300;
+    margin-left: 25px;
+}
+ol {
+    font-weight: 300;
+    margin-left: 25px;
+}
+
+p {
+    font-weight: 300;
+    margin: 15px 25px 15px 25px;
+}
+
+.navbar {
+    font-weight: normal;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 38, 41);
+    
+    
+}
+
+
+
+.navbar li {
+    float: right;
+}
+
+.navbar a {
+    font-size: 18px;
+    background-color: rgb(34, 38, 41);
+    display: block;
+    color: rgb(226, 226, 226);
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: #22464A;
+}
+
+.navbar .title {
+    float: left;
+}
+
+.navbar .title a {
+    
+    background-color: #5497A7;
+}
+.pagehead {
+    margin: 30px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.pagehead strong{
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.intro {
+    padding: 25px;
 }
